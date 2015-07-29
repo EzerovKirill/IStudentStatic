@@ -1,0 +1,297 @@
+@font-face{
+	font-family: 'Geometria';
+	src:url(fonts/geometria_light_cyrillic/Geometria-Light-webfont.ttf);
+}
+body{
+	margin: 0px auto;
+	color:#4a90e2;
+	font-family: 'Geometria';
+}
+
+header{
+	background-image: url(images/headerImg.jpg);
+	background-size:cover;
+	height:400px;
+	padding:15px;
+}
+
+
+footer{
+	
+	background-image: url(images/footerBackground.jpg);
+	border-color:#4a90e2;
+	border-width: 4px;
+}
+
+
+footer table{
+	width:100%;
+	
+}
+
+
+footer table tr td p{
+	
+	cursor: pointer;
+	background:none;
+	padding-left: 25px;
+	padding-top: 10px;
+	margin-top: 0px;
+
+}
+
+footer hr{
+	border-color:#4a90e2;
+	width:100%;
+	border-width: 3px;
+}
+
+footer p{
+	text-align: center;
+	margin-top: 50px;
+}
+ul{
+	list-style: none;
+	margin:0px;
+	padding:10px;
+}
+
+h1{
+	color: #777;
+	font-size: 1em;
+	padding: 5px;
+}
+
+h2{
+	
+	font-size: 1.2em;
+}
+div p{
+	padding-left: 15px;
+}
+p{
+	
+	padding: 0px;
+	border:0px;
+	margin: 0px;	
+	text-align:justify;
+	
+}
+
+hr{
+	border-color: rgba(19,254,77,0.34);
+	width:30%;
+}
+
+td>p{
+	border-radius: 10px;
+	background-color: #d8d8d8;
+	
+}
+
+
+
+li div{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+li div hr{
+	width:100%
+}
+
+li div.line p{
+	margin:auto;
+	margin-top:-18px;
+	background:WHITE;
+	width:250px;
+	text-align:center;
+	font-style: medium;
+}
+
+table{
+	text-align: center;
+	margin: auto;
+	
+}
+
+
+
+
+.block{
+	border-radius: 10px;
+	background-color: #d8d8d8;
+	border-color: #999;
+	float: left;
+	margin:10px;
+}
+
+.block p{
+	padding:15px;
+}
+
+.field{
+	display:block;
+	width:400px;
+	height:20px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-radius: 3px;
+	border-color: #ccc;
+}
+
+
+
+.clearfix{
+	clear:both;
+}
+
+
+#text{
+	width:65%;
+	background: none;
+}
+#text p{
+		background:none;
+
+}
+#picture{
+	width:35%;
+}
+
+#title{
+	margin:5px;
+	margin-left: 20px;
+	float:left;
+	font-size:26pt;	
+}
+
+#layout{
+	width:1000px;
+	margin:auto;
+}
+#layout ul li{
+	margin-top: 50px;
+}
+
+.smoothEveryThing{
+background: rgba(0,0,0,0.35);
+min-width: 100%;
+min-height: 100%;
+position: absolute;
+top:0px;
+bottom: 0px;
+}
+#signInUpBlock{
+background: white;
+margin: 0px auto;
+width: 310px;
+padding: 30px;
+-webkit-box-shadow: 1px -1px 18px 1px rgba(74,144,226,0.59);
+-moz-box-shadow: 1px -1px 18px 1px rgba(74,144,226,0.59);
+box-shadow: 1px -1px 18px 1px rgba(74,144,226,0.59);
+border-radius: 3px;
+text-align: center;
+margin-top: 100px;
+}
+#signInUpBlock form input{
+width: 210px;
+padding: 5px;
+margin-top:15px;
+}
+#signInUpBlock p{
+margin-bottom: 5px;
+text-align: center;
+}
+#signInSubmit{
+font-size: 10.5pt;
+border-radius: 5px;
+padding: 3px;
+padding-left: 8px;
+padding-right: 8px;
+border: solid 2px;
+margin-top: -6px;
+
+}
+#signInUpBlock ul li{
+display: inline;
+list-style: none;
+font-size: 10pt;
+cursor: pointer;
+margin-right: 40px;
+}
+
+.hide{
+display: none;
+}
+#signIn, #signUp{
+float: right;
+margin-right: 40px; 
+}
+
+.button{
+border-radius: 5px;
+padding: 3px;
+padding-left: 8px;
+padding-right: 8px;
+border: solid 2px;
+margin-top: 10px;
+cursor: pointer;
+}
+#signUpSubmit{
+max-width: 160px; 
+margin: 0px auto;
+margin-top: 15px;
+}
+#forgetPassword{
+	margin-left: 30px;
+}
+
+#SendSuggestion{
+	background-color: #ddd;
+	border: 0px;
+	width:100px;
+	margin-left: 185px;
+}
+
+#DescriptionOfSuggestion{
+	height: 200px;
+
+}
+
+#menu{
+
+	width:100px;
+	background-color: #eee;
+	position:fixed;
+	top:250px;
+
+
+}
+
+#menu ul li hr{
+	border-color: #999;
+	width:90%;
+}
+
+#calendar{
+	border-style: solid;
+	border-radius:8px;
+	border-width: 2px;
+	border-color: #999;
+	width:700px;
+
+}
+#calender, tr{
+	border-radius: 0px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #777;
+}
+
+
+
+
+
